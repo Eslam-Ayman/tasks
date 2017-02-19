@@ -12,8 +12,6 @@
     $nav = true;
   }
 
-  
-
   /*if($_SERVER['REQUEST_URI'] == "/projects/tasks/assets/profile" && $nav == false);
   {
     header("Location: #/signin");
@@ -125,6 +123,7 @@ $location.path()*/
   <script type="text/javascript" src="assets/js/app.js"></script>
   <script type="text/javascript">
     // alert(location.path());
+    
   </script>
   
   <script type="text/javascript" src="assets/js/script.js"></script>

@@ -19,7 +19,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-	<link rel="stylesheet" type="text/css" href="css/font-awesome.css" />
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.css"/>
 	<link rel="stylesheet" type="text/css" href="css/A-style.css" />
     <link rel="stylesheet" href="css/style.css">
     <title>Tasks</title>
@@ -27,6 +27,46 @@
 		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	<![endif]-->
+	<style type="text/css">
+		.sidebar > i
+		{
+			position: absolute;
+			left:100%;
+			top:2%;
+			display: none;
+			color: #2f4154;
+		}
+		/*.sidebar > i:active + .sidebar{
+			-webkit-animation-duration: 3s;
+		    -webkit-animation-delay: 2s;
+		    -webkit-animation-iteration-count: infinite;
+		    width: 159px;
+		}*/
+		.sidebar
+		{
+			/*position: relative;*/
+			transition: all 0.75s ease;
+		}
+		aside.pushmenu-open { left: 0px; bottom: 0; top: 51px;}
+		@media only screen and (max-width: 765px) {
+			.sidebar
+			{
+				left: -50%;
+				bottom: 100%;
+				top: 65%;
+				/*left: -181px;*/
+				/*width: 0;*/
+				/*display: none;*/
+				/*width : 165px;*/
+				overflow: inherit;
+				/*margin-left: -159px;*/
+			}
+			.sidebar > i
+			{
+				display: inline-block;
+			}
+		}
+	</style>
 </head>
 <body>
     <nav class="navbar navbar-inverse nav-color navbar-fixed-top">
@@ -75,7 +115,7 @@
 <div class="container-fluid">
     <div class="row" ng-controller="side-tabs as nav">
         <aside class="col-xs-6 col-sm-3 col-md-2 sidebar">
-            
+            <i class="fa fa-angle-double-right fa-3x" aria-hidden="true"></i>
 			<form class="form-inline" role="search">
 					<div class="input-group">
 						<input type="text" class="form-control" placeholder="Search..." />
@@ -108,7 +148,7 @@
              </div>
         </aside>
 <!--  ***********************************************      content section     *************************************************************   -->
-        <section class="content col-xs-6 col-xs-offset-6 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
+        <section class="content col-xs-12 col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2">
         	<div class="container" ng-view>
         	</div>
         </section>
@@ -121,5 +161,16 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 	<script type="text/javascript" src="js/app.js"></script>
 	<script type="text/javascript" src="js/script.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('.sidebar > i').click(function(){
+				// $(this).toggleClass('fa-angle-double-right','fa-window-close-o',1000, "easeInOutQuad");
+				$(this).toggleClass('fa-angle-double-right').toggleClass('fa-window-close-o');
+				$('.fa-window-close-o').css('font-size','2em');
+				$('.fa-angle-double-right').css('font-size','3em');
+				$('.sidebar').toggleClass('pushmenu-open');
+			});
+		});
+	</script>
 </body>
 </html>

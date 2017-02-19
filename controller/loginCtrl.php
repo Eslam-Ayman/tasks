@@ -11,10 +11,14 @@
 		if($login->data[1])
 		{
 			session_start();
+			$_SESSION['u_id'] = $login->data[0];
 			$_SESSION['username'] = $login->data[1];
 			$_SESSION['email'] = $login->data[2];
+			$_SESSION['password'] = $login->data[3];
+			$_SESSION['birth-date'] = $login->data[4];
 			$_SESSION['phone'] = $login->data[5];
-			
+			$_SESSION['country'] = $login->data[6];
+
 			header("Location: ../assets/inner.php#mustDo");
 		}
 		else
