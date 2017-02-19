@@ -1,0 +1,79 @@
+
+.fa-btn {
+	margin-right: 6px;
+}
+#NewD{
+	border-radius: 0;
+	margin-bottom: 0;
+	color: #FFFFFF;
+	background-color: #33BBFF;
+	border-color: #00AAFF;
+	border-bottom: none;
+}
+#NewD > button.close{
+	color: black;
+}
+/* some layouts class*/
+.space{
+	margin-bottom: 25px;
+}
+.p{
+	border-right: 0;
+	margin-bottom: 0;
+}
+.no_border{
+	border: none;
+}
+.padd{
+	margin-bottom: 40px;
+}
+.space-top{
+	margin-top: 25px;
+}
+.submit-modal{
+	margin-left: 15px;
+    margin-top: 15px;
+}
+.height-50{
+	height: 50px;
+}
+.height-40{
+	height: 40px;
+}
+.height-30{
+	background-color: #F5F5F5;
+	height: 40px;
+}
+.height-17{
+	  height: 15px;
+  margin-top: 15px;
+}
+.marginLR{
+	margin:0 2px;
+}
+.disapear{
+	display: none;
+}
+.media{
+	overflow: visible;
+}
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+.main{
+	position:relative;
+	padding: 3px;	
+}
+.edit{
+	/*display: none;*/
+	position: absolute;
+	right:0;
+	padding:12px;
+}

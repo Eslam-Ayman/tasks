@@ -1,0 +1,664 @@
+.sign fieldset
+{
+    margin:0px;
+    border: 2px solid #ddd;
+    padding:5%;
+}
+.sign legend
+{
+    text-align:center;
+    padding-left: 2px;
+    padding-right: 2px;
+    border: 2px solid #ddd;
+    background-color:#f5f5f5;
+}
+.navbar-inverse
+{
+    border-radius: 0;
+    background-color: #2f4154;
+    border-bottom: 8px solid #1ABC9C;
+    margin-bottom: auto
+}
+.navbar-inverse .navbar-brand,.btn-srch
+{
+    color:white;
+}
+.navbar > .container-fluid .navbar-brand 
+{
+    margin: 0px;
+}
+.navbar-inverse .navbar-nav>.active>a , .btn-srch
+{
+    background-color:#1abc9c;
+}
+.btn-srch:focus , .navbar-inverse .navbar-nav>.active>a:focus
+{
+    color: white;
+    background-color: #1abc9c; 
+}
+#sinup:hover , .btn-srch:hover , .navbar-inverse .navbar-nav>.active>a:hover
+{
+    background-color: #0CD0A9;
+	color: white
+}
+
+/* ----------------------       home  page      ------------------------------ */
+body
+{
+    margin-top: 85px;
+}
+/* --------------    carousel  slider   ------------------ */
+.item-1
+{
+    background-color: #E8E8E8;
+}
+.item-1 .carousel-caption
+{
+    position: static;
+    padding-top: 50px;
+    padding-bottom: 60px;
+    min-height: 470.435px;
+}
+.item-1 .carousel-caption h2
+{
+    color: gray;
+    margin-bottom: 50px;
+}
+.item-1 a
+{
+    margin:10px;
+    border:2px solid #3c948b;
+    color:#3c948b;
+    background-color:transparent;
+}
+.item-1 a:hover, .item-1 a:focus
+{
+    color:#3c948b;
+}
+.item-1 a:nth-of-type(2)
+{
+    color:white;
+    background-color:#3c948b;
+}
+.item-2
+{
+    background-color: #2F4154;
+}
+.item-2 img
+{
+    box-shadow: -21px 20px 24px -10px rgba(0,0,0,0.48);
+    border-radius: 5%;
+    padding-left: 0px;
+}
+.item-2 .carousel-caption h2
+{
+    margin-bottom: 20px;
+    color: #B6B8B9
+}
+.item-2 p
+{
+    color: gray
+}
+.carousel-1 .carousel-inner
+{
+    min-height: 470.435px;
+}
+.carousel-indicators
+{
+    bottom: 0px;
+}
+.carousel-1 .carousel-indicators li
+{
+    background-color: #26FFD4;
+    border-color: #26FFD4;
+}
+.carousel-1 .carousel-indicators .active
+{
+    background-color: #1ABC9C;
+    border-color: #1ABC9C;
+    width: 10px;
+    height: 10px;
+}
+
+
+/* --------------    section  one   ------------------ */
+
+.home-one 
+ {
+	display : flex;
+	flex-direction : column;
+	justify-content : center;
+	align-items : center;
+	padding: 7% 0%;
+ }
+ .home-one > h1:first-child
+ {
+	color : #02918c;
+	font-family : arial;
+	font-weight : 800;
+	margin : 0px;
+ }
+ .home-one > h4:nth-child(2)
+ {
+	color : #7e8287;
+	margin-top: 10px;
+ }
+ .home-one > p:nth-child(3)
+ {
+	text-align : center;
+	color: #7e8287;
+	font-family : arial;
+	margin-top: 30px;
+	margin-bottom: 80px;
+ }
+ .home-one > div:last-child > div
+{
+	float : left;
+	border-left : 1px solid #7e8287;
+	display : flex;
+	flex-direction :column;
+	justify-content : center;
+	align-items : center;
+	padding : 40px;
+}
+ .home-one > div:last-child > div > i:first-child
+ {
+	color : #02918c;
+	font-size : 35px;
+ }
+ .home-one > div:last-child > div > h4:nth-child(2)
+ {
+	color : #7e8287;
+	font-family : arial;
+	font-weight : 600;
+	margin-top : 30px;
+	margin-bottom: 25px;
+ }
+ .home-one > div:last-child > div > p:last-child
+ {
+	text-align:center;
+	color : #7e8287;
+	margin : 0px;
+	font-size : small;
+ }
+ .home-one > div:last-child > div:nth-of-type(1)
+ {
+	border-left : none;
+ }
+
+
+
+/* --------------    section  two   ------------------ */
+
+ .home-two 
+ {
+	background-image : url("../img/laptop.png");
+	background-color : #f0f0e8;
+	background-size : 50% 100%;
+	background-repeat : no-repeat;
+	background-position: right center;
+	padding : 5%;
+ }
+ 
+ .home-two > h1:first-child
+ {
+	font-family : arial;
+	font-weight : 800;
+	color: #02918c;
+	margin : 0px;
+ }
+ .home-two > h4:nth-child(2)
+ {
+	color: #7e8287;
+	margin-top : 10px;
+	margin-bottom : 25px;
+ }
+ .home-two > p:nth-child(3)
+ {
+	margin :0px;
+	margin-bottom : 40px;
+	font-size : 15px;
+	font-family : arial;
+	color : #7e8287;
+ }
+.home-two > div
+{
+	display : inline-block;
+	padding : 2%;
+}
+.home-two > div > i:first-child
+{
+	font-size: 30px;
+	color : #02918c;
+}
+.home-two > div > h4:nth-child(2)
+{
+	font-family : arial;
+	font-weight : 800;
+	color : #7e8287;
+	margin-bottom : 7%;
+} 
+.home-two > div > p:last-child
+{
+	font-family :arial;
+	font-size : small;
+	color : #7e8287;
+	margin : 0px;
+}
+
+/* --------------    section  three   ------------------ */
+
+.carousel-2 .item-1
+{
+    background-color: white;
+}
+.carousel-2 .item-1 .carousel-caption
+{
+    color: inherit;
+    min-height: inherit;
+}
+.carousel-2 .item-1 .carousel-caption p
+{
+    margin-bottom: 50px;
+}
+.carousel-2 .carousel-indicators
+{
+    margin-bottom: auto;
+}
+.carousel-2 .carousel-indicators li
+{
+    width: 60px;
+    height: 60px;
+    opacity: 0.4;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: all 0.5s ease;
+    border:2px solid #fff;
+}
+.carousel-2 .carousel-indicators .active
+{
+    border:2px solid #1ABC9C;
+    opacity: 1;
+}
+
+ /* ----------------------------------    the last div   ---------------------------- */
+ .home-contact
+ {
+	display: flex;
+	flex-direction : column;
+	justify-content : center;
+	align-items : center;
+	padding-top: 6%;
+ }
+ .home-contact > h1:first-child
+ {
+	font-family : arial;
+	font-weight : 800;
+	color: #02918c;
+	margin: 0px;
+ }
+ .home-contact > h4:nth-child(2)
+ {
+	color : #7e8287;
+	margin-top : 1%;
+	margin-bottom: 3%;
+ }
+ .home-contact > p:nth-child(3)
+ {
+	font-family: arial;
+	font-size : 17px;
+	color :#7e8287;
+	text-align: center;
+	margin: 0px;
+	margin-bottom: 6%;
+ }
+ .home-contact > form:nth-child(4) 
+ {
+	/*width : 100%;
+	box-sizing:border-box;*/
+	align-self : stretch;
+	display : flex;
+	flex-direction: column;
+	align-items : center;
+	background-color : #2F4154;
+	padding : 5%;
+ }
+ .home-contact > form:nth-child(4) > input:first-child,
+ .home-contact > form:nth-child(4) > input:nth-child(2),
+ .home-contact > form:nth-child(4) > textarea:nth-child(4),
+ .home-contact > form:nth-child(4) > label
+ {
+	border : none;
+	border-bottom : 1px solid #7e8287;
+	margin-bottom: 5%;
+	background-color : transparent;
+	color :white;
+	text-align : center;
+	font-size: 17px;
+	padding : 19px;
+	width: 40%;
+ }
+ .home-contact > form:nth-child(4) > label
+ {
+	padding-bottom: 50px;
+	margin-bottom : 2%;
+	width: 70%;
+ }
+ .home-contact > form:nth-child(4) > textarea:nth-child(4)
+{
+	resize: none;
+	width: 70%;
+}
+ .home-contact > form:nth-child(4) > input:last-child
+ {
+	border: none;
+	padding : 1%;
+	width : 20%;
+	background-color : #1ABC9C;
+	color: white;
+	font-family : arial;
+	font-weight : 800;
+ }
+.home-contact > form:nth-child(4) > input[type="submit"]:hover
+{
+	cursor: pointer;
+}
+.home-contact > div:last-child
+{
+    background-color:#1D2A38;
+    color:white;
+    align-self:stretch;
+    text-align: center;
+    margin: auto;
+    padding: 3%;
+}
+
+
+
+/* --------------    Footer  two   ------------------ */
+#T-a{
+    border-bottom: 2px solid #d2d6d5;
+    padding:8px;
+    margin-bottom: 5px;
+}
+#T-a > a
+{
+    display:inline-block;
+    margin-left: 15px;
+    color:rgb(130, 131, 132);
+}
+#T-a > a:first-child{
+    margin-left:0;
+}
+#T-i1:hover
+{
+    color:#3b5998;
+}
+#T-i2:hover
+{
+    color:#55acee;
+}#T-i3:hover
+{
+    color:#dd4b39;
+}#T-i4:hover
+{
+    color:#996600;
+}
+.T-FOOTER
+{
+    padding:20px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    width:75%;
+    margin: 0 auto;
+}
+/* ------------------------------------   inner the website  --------------------------------*/
+/* ------------------------------------   inner the website  --------------------------------*/
+/* ------------------------------------   inner the website  --------------------------------*/
+#user-logo
+{
+    font-size: 45px;
+    margin: 0px 20px 0px 0px ;
+}
+#nofic-logo
+{
+    font-size: 35px;
+    margin: 0px 20px 0px 30px ;
+}
+#user-logo > a
+{
+    /*padding: 3px;*/
+}
+#nofic-logo > a
+{
+    padding: 7px;
+}
+  
+                    /* ----------------------    side tabs    ------------------- */
+.sidebar
+{
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    display: block;
+    overflow-x: hidden;
+    overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
+    background-color: #EEEEEE;
+    border-right: 1px solid #eee;
+    padding: 20px 0px;
+}
+.form-inline
+{
+	margin-bottom: 20px;
+	padding: 0px 10px;
+}
+.nav-sidebar
+{
+    padding: 20px 0px;
+	border-top: 1px solid gainsboro
+}
+.nav-sidebar > li
+{
+    margin: 5px 0px;
+}
+.nav-sidebar > li > a
+{
+    color: #6F6B6B;
+    padding: 10px 30px;
+	transition: 0.4s;
+}
+.nav-sidebar  > li.active  > a
+{
+	background-color: #1abc9c;
+	color: #FFFFFF;
+	padding-left: 40px
+}
+.nav-sidebar > li > a:hover
+{
+  color: #FFFFFF;
+  background-color: #4cd4b9;
+  padding-left: 40px;
+}
+.nav-sidebar > li > a > i , .profile fieldset i
+{
+	margin-right: 10px
+}
+.ftr
+{
+    width: initial;
+    color: rgb(130, 131, 132);
+	/*position:static;
+	margin-top: 50px;*/
+}
+  
+					/* --------------------  navbar dropdow menu  ---------------------- */
+.navbar-nav > li > .dropdown-menu
+{
+	margin-top: 8px;
+
+}
+.navbar-nav > li > .dropdown-menu > li > a
+{
+	-webkit-transition: padding 0.5s ease;
+    -moz-transition: padding 0.5s ease;
+    -o-transition: padding 0.5s ease;
+    transition: padding 0.5s ease;
+}
+.navbar-nav > li > .dropdown-menu > li:last-child > a
+{
+	 color: #FFFFFF;
+	background-color: #4cd4b9;
+	text-align: center;
+}
+.navbar-nav > li > .dropdown-menu > li > a:hover
+{
+	background-color: #1abc9c;
+	color: #FFFFFF;
+    padding-left: 25px;
+}
+                /*  -----------------------     content section    ----------------------- */
+
+.content > .container
+{
+	width: auto;
+}
+.content .container .create
+{
+    background-color: #82807E;
+    color: white;
+    padding: 5%;
+    cursor: pointer;
+}
+.content .container .create:hover
+{
+    background-color: #737270
+}
+.content .container .create i
+{
+    padding: 7%;
+    border-radius: 50%;
+    border: 1px solid;
+    
+}
+.content .container .img-card
+{
+    transition: 0.3s;
+    float: left
+}
+.content .container .img-card:hover /*, .profile img:hover*/
+{
+    opacity: 0.5;
+    cursor: pointer;
+    transform: rotate(7deg);
+}
+.content .container .admin-img
+{
+    height: 70px;
+    margin-top:-40px;
+    position: relative;
+}
+
+.btn-trash
+{
+	color: white;
+	border: none;
+	background-color: #204D74;
+}
+.btn-trash:hover,
+.btn-trash:focus
+{
+	color: white;
+}
+  /* ------------------------------------  Profile Setting  ---------------------------------------  */
+  
+.profile fieldset
+{
+    background-color: #f5f5f5;
+    border: 2px solid #e3e3e3;
+    padding: .35em .625em .75em;
+    border-radius: 10px
+}
+.profile fieldset legend
+{
+    background-color: #204D74;
+    text-align: center;
+    padding: 1% 3%;
+    border-radius: 5px;
+    color: white;
+    width: auto;
+}
+.profile form input
+{
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+    margin-bottom: 5px;
+}
+.profile form input[type="radio"]
+{
+    width: auto
+}
+.profile img
+{
+    margin-bottom: 20px;
+    transition: 0.5s;
+    border-radius: 5%
+}
+.profile img:hover
+{
+    cursor: pointer;
+    margin-bottom: -25px;
+    box-shadow: 21px 20px 24px -10px rgba(0,0,0,0.48);
+}
+.btn-profile,
+.btn-profile:focus
+{
+    background-color: #204D74;
+}
+.btn-profile:hover
+{
+    background-color: #235A8A;
+}
+
+
+
+/*.aside-bare
+{
+    border-radius: 0;
+    background-color: #495867;
+    position: fixed;
+    top: 52px;
+    left: 0;
+    bottom: 0;
+}
+.nav>li>a
+{
+    color: #9d9d9d;
+}
+.nav>li>a:hover
+{
+    color: white;
+    background-color:#1abc9c;
+}
+#search-btn
+{
+    border:none;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
