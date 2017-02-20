@@ -1,1 +1,4 @@
+Options +Indexes
+IndexOptions FancyIndexing
+
 AddType application/font-woff woff woff2
