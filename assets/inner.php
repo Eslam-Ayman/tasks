@@ -35,6 +35,7 @@
 			top:2%;
 			display: none;
 			color: #2f4154;
+			cursor: pointer;
 		}
 		/*.sidebar > i:active + .sidebar{
 			-webkit-animation-duration: 3s;
