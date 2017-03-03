@@ -24,10 +24,10 @@
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
-    
+   
     <div class="item active item-1 container-fluid">
       <div class="carousel-caption row">
-        <img src="assets/img/tasktracker-logo.png" alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3  col-md-4 col-md-offset-4 img-responsive">
+        <img src= <?= base_url("assets/img/tasktracker-logo.png"); ?> alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-3  col-md-4 col-md-offset-4 img-responsive">
         <h2 class="col-xs-12 col-md-8 col-md-offset-2">Tasks is the best tool that allowed you to manage any project, and share your tasks with anybody</h2>
         <div class="col-xs-12 col-sm-6 col-sm-offset-3" ng-if="<?php echo !$nav;?>">
           <a  class="btn btn-lg" href="#signup">Sign Up</a>
@@ -38,7 +38,7 @@
     
     <div class="item item-1 item-2 container-fluid">
       <div class="carousel-caption row">
-        <img src="assets/img/manager.jpg" alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0  col-md-4 col-md-offset-2 img-responsive img-rounded">
+        <img src=<?= base_url("assets/img/manager.jpg");?> alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0  col-md-4 col-md-offset-2 img-responsive img-rounded">
         <div class="col-xs-12 col-sm-6 col-md-5">
           <h2>Good Managing</h2>
           <p class="lead">Manager and Employees can Contact with this tool, it is easy to use Tasks and manage your employee by Goals and Cards and give the Due Date
@@ -49,7 +49,7 @@
     
     <div class="item item-1 item-2 container-fluid">
       <div class="carousel-caption row">
-        <img src="assets/img/goal-2.jpg" alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0  col-md-4 col-md-offset-2 img-responsive img-rounded">
+        <img src=<?= base_url("assets/img/goal-2.jpg"); ?> alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0  col-md-4 col-md-offset-2 img-responsive img-rounded">
         <div class="col-xs-12 col-sm-6 col-md-5">
           <h2>Organize Goals</h2>
           <p class="lead">Manager and Employees can Contact with this tool, it is easy to use Tasks and manage your employee by Goals and Cards and give the Due Date
@@ -60,7 +60,7 @@
     
     <div class="item item-1 item-2 container-fluid">
       <div class="carousel-caption row">
-        <img src="assets/img/slider/teamwork-2.jpg" alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0  col-md-4 col-md-offset-2 img-responsive img-rounded">
+        <img src=<?= base_url("assets/img/slider/teamwork-2.jpg"); ?> alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0  col-md-4 col-md-offset-2 img-responsive img-rounded">
         <div class="col-xs-12 col-sm-6 col-md-5">
           <h2>Good for Teamwork</h2>
           <p class="lead">Manager and Employees can Contact with this tool, it is easy to use Tasks and manage your employee by Goals and Cards and give the Due Date
@@ -71,7 +71,7 @@
     
     <div class="item item-1 item-2 container-fluid">
       <div class="carousel-caption row">
-        <img src="assets/img/slider/contest-2.jpg" alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0  col-md-4 col-md-offset-2 img-responsive img-rounded">
+        <img src=<?= base_url("assets/img/slider/contest-2.jpg"); ?> alt="logo" class="col-xs-8 col-xs-offset-2 col-sm-6 col-sm-offset-0  col-md-4 col-md-offset-2 img-responsive img-rounded">
         <div class="col-xs-12 col-sm-6 col-md-5">
           <h2>Good for Contest</h2>
           <p class="lead">Manager and Employees can Contact with this tool, it is easy to use Tasks and manage your employee by Goals and Cards and give the Due Date
@@ -161,9 +161,9 @@
   <div id="testimonial" class="carousel slide row carousel-2" data-ride="carousel" data-interval="2000">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#testimonial" data-slide-to="0" class="active"><img src="assets/img/avatar-1.png" alt="pic-1" class="img-responsive img-circle"></li>
-    <li data-target="#testimonial" data-slide-to="1"><img src="assets/img/avatar-2.png" alt="pic-2" class="img-responsive img-circle"></li>
-    <li data-target="#testimonial" data-slide-to="2"><img src="assets/img/avatar-3.png" alt="pic-3" class="img-responsive img-circle"></li>
+    <li data-target="#testimonial" data-slide-to="0" class="active"><img src=<?= base_url("assets/img/avatar-1.png")?> alt="pic-1" class="img-responsive img-circle"></li>
+    <li data-target="#testimonial" data-slide-to="1"><img src=<?= base_url("assets/img/avatar-2.png")?> alt="pic-2" class="img-responsive img-circle"></li>
+    <li data-target="#testimonial" data-slide-to="2"><img src=<?= base_url("assets/img/avatar-3.png")?> alt="pic-3" class="img-responsive img-circle"></li>
   </ol>
 
   <!-- Wrapper for slides -->
